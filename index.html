@@ -4,90 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-        <h1>task2</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">form & answers</a></li>
-            <li><a href="page2.html">just_text</a></li>
-            <li><a href="page3.html">just_media</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>welcome to the page_</h2>
-        <h3>form</h3>
-        <fieldset>
-            <legend>when KSE was founded?</legend>
-            <p>choose the option</p>
-            <div>
-                <input type="radio" id="1996" name="drone" value="1996" checked />
-                <label for="1996">1996</label>
-              </div>
+    
+    
+    <div class="nav-container"><div>
+        <header>
+            <h1>task2</h1>
+        </header>
+    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">form & answers</a></li>
+                <li><a href="page2.html">just_text</a></li>
+                <li><a href="page3.html">just_media</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-container">
+        <main>
+            <h2>welcome to the page_</h2>
             
-              <div>
-                <input type="radio" id="1999" name="drone" value="1999" />
-                <label for="1999">1999</label>
-              </div>
-            
-              <div>
-                <input type="radio" id="2021" name="drone" value="2021" />
-                <label for="2021">2021</label>
-              </div>
-          </fieldset>
-          
-          <fieldset>
-            <legend>is Tymofyi Brik the youngest rector in Ukraine?</legend>
-            <p>choose the options</p>
-            <div>
-              <input type="checkbox" id="maybe" name="maybe" checked />
-              <label for="maybe">maybe</label>
+            <div class="form-container">
+              <h3>form</h3>
+              <div class="q1-container">
+              <fieldset>
+                  <legend>when KSE was founded?</legend>
+                  <p>choose the option</p>
+                  <div>
+                      <input type="radio" id="1996" name="drone" value="1996" checked />
+                      <label for="1996">1996</label>
+                  </div>
+
+                  <div>
+                      <input type="radio" id="1999" name="drone" value="1999" />
+                      <label for="1999">1999</label>
+                  </div>
+
+                  <div>
+                      <input type="radio" id="2021" name="drone" value="2021" />
+                      <label for="2021">2021</label>
+                  </div>
+              </fieldset>
             </div>
-          
-            <div>
-              <input type="checkbox" id="probably" name="probably" />
-              <label for="probably">probably</label>
+            <div class="q2-container">
+              <fieldset>
+                  <legend>is Tymofyi Brik the youngest rector in Ukraine?</legend>
+                  <p>choose the options</p>
+                  <div>
+                      <input type="checkbox" id="maybe" name="maybe" checked />
+                      <label for="maybe">maybe</label>
+                  </div>
+
+                  <div>
+                      <input type="checkbox" id="probably" name="probably" />
+                      <label for="probably">probably</label>
+                  </div>
+
+                  <div>
+                      <input type="checkbox" id="really" name="really" />
+                      <label for="really">really?</label>
+                  </div>
+              </fieldset>
             </div>
-
-            <div>
-                <input type="checkbox" id="really" name="really" />
-                <label for="really">really?</label>
-              </div>
-          </fieldset>
-
-          <label for="street_name">on what street was the first campus?</label>
-
-        <input type="text" id="street_name" name="street_name" required minlength="4" maxlength="50" size="50" />
-        <input type="submit" />
-
-        <table>
-            <thead>
-            <th>q</th>
-            <th>a</th>
-            </thead>
-            <tbody>
-            <tr>
-            <td>when KSE was founded</td><td>1996</td>
-            </tr>
-            <tr>
-            <td>is Tymofyi Brik the youngest rector in Ukraine?</td>
-            <td>all answers are correct</td>
-            </tr>
-            <tr>
-            <td>on what street was the first campus?</td>
-            <td>Dmitrivska Street, 92-94
-                (but it’s ok if you didn’t know)</td>
-            </tr>
+            <div class="q3-container">
+                <label for="street_name">on what street was the first campus?</label>
+                <input type="text" id="street_name" name="street_name" required minlength="4" maxlength="50" size="50" />
+                
+                
             
-            </tbody>
-            </table>
-    </main>
-    <footer>
-        <p>web concepts_task2</p>
-    </footer>
+          </div>
+          <div class="submit-container" onclick="submitButtonClick()">
+                  Submit answers
+              </div>
+            
+
+            <div class="answers-container">
+              <h3>answers</h3>
+                <table>
+                    <thead>
+                        <th>q</th>
+                        <th>a</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>when KSE was founded</td>
+                            <td>1996</td>
+                        </tr>
+                        <tr>
+                            <td>is Tymofyi Brik the youngest rector in Ukraine?</td>
+                            <td>all answers are correct</td>
+                        </tr>
+                        <tr>
+                            <td>on what street was the first campus?</td>
+                            <td>Dmitrivska Street, 92-94 (but it’s ok if you didn’t know)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <div>
+        <footer>
+            <p>web concepts_task2</p>
+        </footer>
+    </div>
 </body>
 </html>
+
+
