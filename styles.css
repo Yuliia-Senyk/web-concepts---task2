@@ -135,7 +135,7 @@ body {
     
     background: linear-gradient(-60deg, #0b080df7, #5e3fb4), #FF814C;
     border-radius: 20px;
-    color: #FFF;
+    color: #eaf1ec;
     font-family: verdana;
     font-weight: 700;
     font-size: 28px;
@@ -144,12 +144,19 @@ body {
     margin-bottom: 20px;
 }
 
+/* .a{
+  background: linear-gradient(116.46deg, #7E51FF .64%, #FF814C 50.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+} */
+
 .d{
   padding-top: 8px;
-  color: red;
-  background: #fff;
+  font-style: italic;
+  color: #fff;
   font-size: 15px;
-  font-family: verdana;
+  font-family: sans-serif;
   width: 800px;
 }
 
