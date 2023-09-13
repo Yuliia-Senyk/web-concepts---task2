@@ -126,9 +126,6 @@ body {
 
 
 .a, .b, .audio, h6{
-  
-  position: center;
-  
     width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -162,6 +159,7 @@ body {
 
 .e{
   color: #ffffffae;
+  align-items: center;
   font-size: 15px;
   font-family: verdana;
   width: 800px;
@@ -292,7 +290,6 @@ td {
 
 .submit-container {
     cursor: pointer;
-    position: center;
     width: 450px;
     height: 70px;
     padding: 20px;
