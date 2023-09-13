@@ -1,170 +1,249 @@
-/* .nav-container */
+/* 
 .nav-container {
-    display: flex;
+    display: inline;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 160px;
+    height: 0px;
     color: #FFFFFF !important;
     font-family: 'Verdana', sans-serif;
     font-weight: 700;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 30px;
     letter-spacing: 1px;
-    padding: 20px; /* Add padding as needed */
-    box-sizing: border-box;
-    margin-bottom: 20px; /* Add margin to separate from the next container */
-}
+    padding: 10px; } */
 
-.nav-container h1 {
+/* .header-task2 h1 nav{
     color: #FFF !important;
+    padding-left: 20px;
     font-family: verdana;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.5px;
+} */
+
+.nav-container nav  {
+  color: #FFF ;
+  text-decoration: none;
+  padding-left: 300px;
+
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  list-style: none;
+  line-height: 0px;
+  font-family: verdana;
+  font-weight: 700;
 }
 
-.nav-container nav ul {
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 69px;
-    list-style: none;
-    line-height: 30px;
+a.nav-container:link{
+  color: #FFF;
+   text-decoration: none;
 }
 
-.nav-container nav ul li {
-    color: #FFF;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.5px;
+a.nav-container:visited{
+  color: #fff;
+   text-decoration: none;
 }
 
-/* Individual link styles */
-.nav-container nav ul li:nth-child(1) {
-    color: #FFFFFF;
-    text-decoration: none;
-    width: 190px;
-    height: 81px;
+a.nav-container:hover
+{
+   color: #FF814C;
+   text-decoration: none;
 }
 
-.nav-container nav ul li:nth-child(2) {
-    color: #D1D1D1;
-    width: 75px;
-    height: 81px;
+a.nav-container:active
+{
+   color: #8d63ff;
+   text-decoration: none;
 }
 
-.nav-container nav ul li:nth-child(3) {
-    color: #D1D1D1;
-    width: 102px;
-    height: 81px;
-}
 
-/* .q-container */
 .q-container {
     position: relative;
     width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(0deg, #323443, #323443), #EFF6FF;
+    background: linear-gradient(-60deg, #0b080df7, #5e3fb4), #FF814C;
     border-radius: 20px;
     color: #FFFFFF;
-    font-family: 'Sora', sans-serif;
+    font-family: verdana;
     font-weight: 700;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 20px;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
 
 
-  
-/* Style for .answers-container and its child h3 */
-/* Style for .main-container h2 */
 .main-container h2 {
     position: absolute;
     width: 1140px;
     height: 72px;
-    left: 150px;
-    top: 221px;
+    left: 300px;
+    top: 50px;
   
-    /* Heading/H2 */
+
     font-family: verdana;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 72px;
-    /* identical to box height, or 129% */
-    letter-spacing: 1px;
   
-    background: linear-gradient(116.46deg, #7E51FF 34.64%, #FF814C 77.83%);
+    background: linear-gradient(116.46deg, #7E51FF .64%, #FF814C 50.83%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
   }
   
-  .answers-container h3 {
-    /* Heading/H3 */
-    font-family: verdana;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 56x;
-    margin-top: 140px;
-    margin-left: 0px;
-    /* identical to box height, or 117% */
-    letter-spacing: 1px;
-    color: #FFFFFF;
-  }
-  
-.form-container h3{
-    /* Heading/H3 */
+  .answers-container h3, .form-container  h3 {
+    display: flex;
+    align-items: center;
     font-family: verdana;
     font-style: normal;
     font-weight: 700;
     padding-top: 200px;
     margin-left: 300px;
+    margin-bottom: 20px;
     font-size: 48px;
     line-height: 39px;
-    /* identical to box height, or 117% */
+
     letter-spacing: 1px;
     color: #FFFFFF;
+    
+  }
+  
+
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 2106px;
+    background: #050505f7;
+  }
+
+
+.a, .b, .audio, h6{
+  
+  position: center;
+  
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    background: linear-gradient(-60deg, #0b080df7, #5e3fb4), #FF814C;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.d{
+  padding-top: 8px;
+  color: red;
+  background: #fff;
+  font-size: 15px;
+  font-family: verdana;
+  width: 800px;
+}
+
+.e{
+  color: #ffffffae;
+  font-size: 15px;
+  font-family: verdana;
+  width: 800px;
+  padding-top: 20px;
+  
+}
+
+
+
+
+.q1-container,
+.q2-container,
+.q3-container{
+  position: relative;
+  width: 800px; 
+  margin: 0 auto;
+  padding: 20px; 
+
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Verdana, Verdana;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 20px; 
 }
 
 
 
 
 
-body {
-    position: relative;
-    width: 1440px;
-    height: 3106px;
-    background: #272727;
-    margin: 0; /* Remove default margin to fill the entire viewport */
-    padding: 0; /* Remove default padding */
-  }
+fieldset {
+  border: none;
+}
 
 
+legend {
+  font-weight: 700;
+  font-size: 24px; 
+  margin-bottom: 10px; 
+}
 
 
-
-/* Base CSS */
-.q1-container,
-.q2-container,
-.q3-container {
+p {
   position: relative;
-  width: 800px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the containers horizontally */
-  padding: 20px; /* Add padding as needed */
-  background: linear-gradient(0deg, #323443, #323443), #EFF6FF;
+  width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+
+  border-radius: 20px;
+  color: #ffffffb0;
+  font-family: Verdana, Verdana;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 20px; 
+}
+
+
+input[type="radio"],
+input[type="checkbox"]{
+  font-family: verdana;
+  margin-right: 10px; 
+  
+}
+
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px; 
+  letter-spacing: 0.014em;
+  font-family: verdana;
+  color: #FFFFFF;
+}
+
+
+
+
+  
+
+table {
+    
+  width: 800px; 
+  margin: 0 auto; 
+  padding: 10px; 
+  
   border-radius: 20px;
   color: #FFFFFF;
   font-family: 'Sora', sans-serif;
@@ -172,52 +251,38 @@ body {
   font-size: 28px;
   line-height: 40px;
   letter-spacing: 1px;
-  margin-bottom: 20px; /* Adjust spacing between containers */
+  margin-bottom: 20px;
+
+  background: linear-gradient(-60deg, #0b080df7 , #5e3fb4 );
+    border-radius: 12px;
+    
+    
 }
 
-/* Fieldset Style */
-fieldset {
-  border: none;
-  margin: 0;
-  padding: 0;
-  border-top: 2px solid #7E51FF; /* Adjust border color as needed */
-  margin-top: 20px; /* Adjust spacing as needed */
-}
 
-/* Legend Style */
-legend {
-  font-weight: 700;
-  font-size: 24px; /* Adjust the font size as needed */
-  margin-bottom: 10px; /* Adjust spacing as needed */
-}
-
-/* Paragraph Style */
-p {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 18px; /* Adjust the font size as needed */
-  line-height: 32px; /* Adjust line height as needed */
-  letter-spacing: 0.014em;
-}
-
-/* Radio and Checkbox Styles */
-input[type="radio"],
-input[type="checkbox"] {
-  margin-right: 10px; /* Adjust spacing between input and label */
-  
-}
-
-/* Label Style */
-label {
-  font-weight: 400;
-  font-size: 14px; /* Adjust the font size as needed */
-  line-height: 32px; /* Adjust line height as needed */
-  letter-spacing: 0.014em;
+th {
   color: #FFFFFF;
+  font-family: Verdana;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px; 
+  line-height: 32px; 
+  padding: 10px; 
 }
 
 
-/* Button Styles */
+td {
+  font-weight: 400;
+  color: #FFFFFF;
+  font-family: Verdana;
+  
+  font-size: 12px; 
+  line-height: 24px; 
+  padding: 10px; 
+}
+
+
+
 .submit-container {
     cursor: pointer;
     position: center;
@@ -229,63 +294,22 @@ label {
     font-family: 'verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1px;
+    font-size: 40px;
+    line-height: 1px;
+    
+  
+    letter-spacing: 4px;
     color: #FFFFFF;
-    background: linear-gradient(91.01deg, #7E51FF 23.7%, #FF814C 105.08%);
+      background: linear-gradient(-60deg, #0b080df7 30%, #fff 333.08%);
     border-radius: 60px;
     border: none;
 }
 
 .submit-container:hover {
-    background: linear-gradient(91.01deg, #5e3fb4 23.7%, #d44226 105.08%); /* Adjust hover background color */
+      background: linear-gradient(-60deg, #0b080df7 23.7%, #7E51FF 105.08%); 
 }
 
-  
-/* Table Style */
-table {
-    
-  width: 800px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the containers horizontally */
-  padding: 10px; /* Add padding as needed */
-  
-  border-radius: 20px;
-  color: #FFFFFF;
-  font-family: 'Sora', sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 40px;
-  letter-spacing: 1px;
-  margin-bottom: 20px; /* Adjust spacing between containers */
 
-  background: linear-gradient(91.01deg, #7E51FF 23.7%, #FF814C 105.08%);
-    border-radius: 12px;
-    
-}
 
-/* Table Header Style */
-th {
-  color: #FFFFFF;
-  font-family: Verdana;
-  border-radius: 12px;
-  font-weight: 700;
-  font-size: 18px; /* Adjust the font size as needed */
-  line-height: 32px; /* Adjust line height as needed */
-  padding: 10px; /* Adjust padding as needed */
-}
 
-/* Table Cell Style */
-td {
-  font-weight: 400;
-  color: #FFFFFF;
-  font-family: Verdana;
-  
-  font-size: 16px; /* Adjust the font size as needed */
-  line-height: 24px; /* Adjust line height as needed */
-  padding: 10px; /* Adjust padding as needed */
-}
 
